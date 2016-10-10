@@ -1,0 +1,68 @@
+@charset "UTF-8";
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+.labels {
+     color: #000080;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 8px;
+     font-weight: bold;
+     text-align: center;
+     width: 20px;     
+     border: 2px solid black;
+     white-space: nowrap;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+}
+
+#header {
+  /*position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;*/
+  height: 45px;
+  line-height: 45px;
+  padding-left: 20px;
+  /***  CSS Borders  ***/
+  border:1px solid rgb(186, 191, 197);
+
+  /***  CSS Gradient  ***/
+  /*  Chrome 1-9 and Safari 4-5.0  */
+  background-image: -webkit-gradient(linear, left top, left bottom,
+        color-stop( 0.0, rgb(249, 247, 247) ),
+        color-stop( 1.0, rgb(230, 231, 234) ));
+
+  /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
+  background-image: -webkit-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  Firefox 3.6+  */
+  background-image: -moz-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  IE 10+  */
+  background-image: -ms-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  Opera 11.10+  */
+  background-image: -o-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  W3C  */
+  background-image: linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+}

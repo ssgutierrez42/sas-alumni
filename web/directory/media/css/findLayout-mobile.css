@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0px;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+	font-size: 15px;
+}
+
+h6 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0px;
+}
+
+#container {
+	max-width: 520px;
+}
+
+#userQuote {
+	margin-top: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+#userTextData {
+	clear:left;
+	margin-left: 0px;	
+}
+
+#userTextDataTwo {
+	clear: left;
+	padding-top: 10px;
+}
+
+#entryContainer{
+	margin:20px;	
+}
+
+#header {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 20px;
+  /***  CSS Borders  ***/
+  border:1px solid rgb(186, 191, 197);
+
+  /***  CSS Gradient  ***/
+  /*  Chrome 1-9 and Safari 4-5.0  */
+  background-image: -webkit-gradient(linear, left top, left bottom,
+        color-stop( 0.0, rgb(249, 247, 247) ),
+        color-stop( 1.0, rgb(230, 231, 234) ));
+
+  /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
+  background-image: -webkit-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  Firefox 3.6+  */
+  background-image: -moz-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  IE 10+  */
+  background-image: -ms-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  Opera 11.10+  */
+  background-image: -o-linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+  /*  W3C  */
+  background-image: linear-gradient(top,
+        rgb(249, 247, 247), 
+        rgb(230, 231, 234) );
+
+}
+
+.borderOnly {
+  border:2px solid rgb(186, 191, 197);
+}
+
+.bumpLeft {
+	padding-left: 10px;
+}
+
+.bumpRight {
+    padding-right: 10px;	
+}
+
+.bumpTopPadding {
+	padding-top: 20px;	
+}
+
+.bumpTop2 {
+	margin-top: 20px;	
+}
+
+.bumpTop {
+  margin-top: 10px;	
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.clearLeft{
+  clear: left;	
+}
+
+.floatImage{
+	float:right;
+}
+
+.floatLeft{
+	float: left;	
+}
